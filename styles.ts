@@ -1,12 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-// Експортуємо константу styles, щоб її можна було імпортувати в App.tsx
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
         paddingHorizontal: 30,
-        backgroundColor: '#f9f9fb', // Світлий, приємний для очей фон
+        backgroundColor: '#f9f9fb',
     },
     title: {
         fontSize: 22,
